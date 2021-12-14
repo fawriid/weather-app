@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
                 <span>${name}</span>
                 <sup>${country}</sup>
             </h2>
-            <div class="city-temp">${temp}</div>
+            <div class="city-temp">${Math.floor(temp)}<span>℃</span></div>
             <figure>
                 <img class="city-icon" src="${icon}" alt="${name} weather situation">
                 <figurecaption>${weather[0].description}</figurecaption>
