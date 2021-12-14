@@ -105,12 +105,18 @@ ul {
 .ajax-section .cities {
   display: grid;
   grid-gap: 3.2rem 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
 .ajax-section .city {
   position: relative;
   padding: 4rem 10%;
   border-radius: 20px;
+  background-color: var(--text_light);
+  color: var(--text_med);
+  text-align: center;
+  overflow: hidden;
+}
+.ajax-section .city div {
   background-color: var(--text_light);
   color: var(--text_med);
   text-align: center;
@@ -199,8 +205,8 @@ ul {
     bottom: -60px;
   }
 }
-@media screen and (max-width:610px) {
-  html{
+@media screen and (max-width: 610px) {
+  html {
     font-size: 50%;
   }
   .top-banner form {
@@ -211,7 +217,7 @@ ul {
   .top-banner form button {
     width: 100%;
   }
-   .top-banner form button {
+  .top-banner form button {
     margin: 20px 0 0 0;
   }
 }

@@ -23,6 +23,7 @@ form.addEventListener("submit", (e) => {
             const li = document.createElement("li");
             li.classList.add("city");
             li.innerHTML = `
+            <div>
             <h2 class="city-name" data-name="${name},${country}">
                 <span>${name}</span>
                 <sup>${country}</sup>
@@ -32,6 +33,7 @@ form.addEventListener("submit", (e) => {
                 <img class="city-icon" src="${icon}" alt="${name} weather situation">
                 <figurecaption>${weather[0].description}</figurecaption>
             </figure>
+            </div>
           `;
             ul.appendChild(li);
         })
