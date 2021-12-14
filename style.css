@@ -70,7 +70,7 @@ ul {
   border-bottom: 1px solid;
   background-color: transparent;
   color: var(--text_light);
-  padding: 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 2rem;
 }
 .top-banner input::placeholder {
   color: currentColor;
