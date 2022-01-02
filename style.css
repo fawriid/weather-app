@@ -20,6 +20,7 @@ body {
   background-color: var(--bg_main);
   color: var(--text_light);
   padding: 4rem;
+  position: relative;
 }
 a {
   text-decoration: none;
@@ -50,6 +51,11 @@ ul {
 
 /* TOP-BANNER SECTION  
 ------------------------------------------------------------------------------------*/
+.author__name{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
 .top-banner {
   color: var(--text_light);
 }
